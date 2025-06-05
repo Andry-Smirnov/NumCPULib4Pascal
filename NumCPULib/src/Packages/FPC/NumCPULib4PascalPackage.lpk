@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
-  <Package Version="4">
+  <Package Version="5">
     <PathDelim Value="\"/>
     <Name Value="NumCPULib4PascalPackage"/>
     <Type Value="RunTimeOnly"/>
@@ -10,8 +10,13 @@
       <PathDelim Value="\"/>
       <SearchPaths>
         <OtherUnitFiles Value="..\.."/>
-        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)\"/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
       </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <UseAnsiStrings Value="False"/>
+        </SyntaxOptions>
+      </Parsing>
       <CodeGeneration>
         <Optimizations>
           <OptimizationLevel Value="4"/>
@@ -27,6 +32,7 @@
         <UnitName Value="NumCPULib"/>
       </Item1>
     </Files>
+    <CompatibilityMode Value="True"/>
     <RequiredPkgs Count="1">
       <Item1>
         <PackageName Value="FCL"/>
