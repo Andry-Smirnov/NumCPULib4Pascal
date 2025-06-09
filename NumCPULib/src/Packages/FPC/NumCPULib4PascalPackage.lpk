@@ -12,11 +12,6 @@
         <OtherUnitFiles Value="..\.."/>
         <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
       </SearchPaths>
-      <Parsing>
-        <SyntaxOptions>
-          <UseAnsiStrings Value="False"/>
-        </SyntaxOptions>
-      </Parsing>
       <CodeGeneration>
         <Optimizations>
           <OptimizationLevel Value="4"/>
